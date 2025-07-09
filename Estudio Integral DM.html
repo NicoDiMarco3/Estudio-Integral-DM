@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio Integral DM</title>
+    <title>Mi Tienda Virtual</title>
     <link rel="stylesheet" href="Estudio Integral DM.css">
+    <style></style>
 </head>
 <body>
-    <H1>Estudio Integral DM</H1>
-    <h2>Hola</h2>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum non eaque deserunt officia itaque voluptatum similique, nemo illo reprehenderit, alias possimus at voluptatem placeat sequi consequuntur harum sunt quod totam.
-    <h3>Hola</h3>
-    <h4>hola como estas?</h4>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Bienvenidos a Mi Tienda de Consonrcios</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#seccion1">Sección 1</a>
+        <a href="#seccion2">Sección 2</a>
+        <a href="#seccion3">Sección 3</a>
+    </nav>
+
+    <!-- Inicio (sección principal) -->
+    <section id="inicio">
+        <h2>Bienvenidos a nuestro comercio</h2>
+        <p>En nuestra tienda online, encontrarás una amplia variedad de productos. ¡Disfruta tu experiencia de compra!</p>
+    </section>
+
+    <!-- Sección de Imágenes -->
+    <section id="seccion1">
+        <h2>Imágenes de Productos</h2>
+        <div class="images">
+            <img src="imagen1.jpg" alt="Producto 1">
+            <img src="imagen2.jpg" alt="Producto 2">
+            <img src="imagen3.jpg" alt="Producto 3">
+        </div>
+    </section>
+
+    <!-- Sección de Formulario de Contacto -->
+    <section id="seccion2">
+        <h2>Formulario de Contacto</h2>
+        <form action="envio.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de Información -->
+    <section id="seccion3">
+        <h2>Información Adicional</h2>
+        <p>Este es un ejemplo básico de una página de comercio en línea. Puedes agregar más secciones según lo necesites.</p>
+    </section>
+
 </body>
 </html>
